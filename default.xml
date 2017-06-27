@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="local" fetch="."/>
+
+  <default revision="master" remote="local" sync-j="4"/>
+
+  <project name="project1" path="project1"/>
+  <project name="project_two" path="project_two"/>
+
+</manifest>
