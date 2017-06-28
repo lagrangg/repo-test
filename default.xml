@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="local" fetch="."/>
+  <remote name="github" fetch="."/>
 
-  <default revision="master" remote="local" sync-j="4"/>
+  <default revision="master" remote="github" sync-j="4" sync-s="true" sync-c="true"/>
 
-  <project name="project1" path="project1"/>
-  <project name="project_two" path="project_two"/>
+  <project name="project1.git" path="project1"/>
+  <project name="project_two.git" path="project_two"/>
 
 </manifest>
