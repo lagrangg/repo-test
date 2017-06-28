@@ -2,8 +2,10 @@
 <manifest>
   <remote name="github" fetch="https://github.com/lagrangg/"/>
 
-  <default revision="master" remote="github" sync-s="true" sync-j="4" sync-c="true"/>
+  <default revision="master" remote="github" sync-j="4" sync-c="true"/>
 
   <project name="repo-test" path="."/>
+  <project name="project1" path="project1"/>
+  <project name="project_two" path="project_two"/>
 
 </manifest>
