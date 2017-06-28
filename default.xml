@@ -4,6 +4,7 @@
 
   <default revision="master" remote="github" sync-j="4" sync-s="true" sync-c="true"/>
 
+  <project name="repo-test.git" path="."/>
   <project name="project1.git" path="project1"/>
   <project name="project_two.git" path="project_two"/>
 
