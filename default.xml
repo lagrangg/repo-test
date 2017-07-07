@@ -7,5 +7,6 @@
   <project name="repo-test" path="."/>
   <project name="project1" path="project1"/>
   <project name="project_two" path="project_two" sync-s="true"/>
+  <project name="project_thr33" path="project_thr33"/>
 
 </manifest>
